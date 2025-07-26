@@ -1,12 +1,7 @@
 import User from './users';
-// function App() {
-//   return(
-//     <>
-//     <h1>App</h1>
-//     <h2>Hey</h2>
-//     </>
-//   );
-// }
+import UseState from './UseState';
+import UseEffect from './UseEffect';
+import UseRef from './UseRef';
 function Hello() {
   return (
     <>
@@ -26,13 +21,18 @@ function App() {
   };
   return(
     <>
+    <h1>25/07/2025</h1>
     <h1>Hello World</h1>
     <User
     name={userData.name}
     age={userData.age}
     phone={userData.phone}
     email={userData.email}
-    /></>
+    />
+    <UseState />
+    <UseEffect />
+    <UseRef />
+    </>
   );
 }
 export {Hello, App};
