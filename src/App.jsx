@@ -2,6 +2,9 @@ import User from './users';
 import UseState from './UseState';
 import UseEffect from './UseEffect';
 import UseRef from './UseRef';
+import UseMemo from './UseMemo';
+import UseCallback from './UseCallback';
+import UseContext from './UseContext';
 function Hello() {
   return (
     <>
@@ -32,6 +35,9 @@ function App() {
     <UseState />
     <UseEffect />
     <UseRef />
+    <UseMemo />
+    <UseCallback />
+    <UseContext />
     </>
   );
 }
