@@ -1,5 +1,5 @@
 import React from "react";
-function User(props) {
+function User2(props) {
     return(
         <>
         <h1>{props.name}</h1>
@@ -9,4 +9,4 @@ function User(props) {
         </>
     );
 }
-export default User;
+export default User2;
