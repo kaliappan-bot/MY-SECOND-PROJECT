@@ -26,6 +26,7 @@ import Functional from './Functional';
 import Class from './Class';
 import ProtectedRoutes from './assets/Protected Routes/ProtectedRoutes';
 import APICall from './APICall';
+import ReactQuery from './ReactQuery';
 function Hello() {
   return (
     <>
@@ -84,6 +85,7 @@ function App() {
       <Class />
       <ProtectedRoutes />
       <APICall />
+      <ReactQuery />
     </BrowserRouter>
   );
 }
