@@ -24,6 +24,8 @@ import ErrorRedux from './assets/Redux/Error';
 import "./assets/Redux/Navbar.css"
 import Functional from './Functional';
 import Class from './Class';
+import ProtectedRoutes from './assets/Protected Routes/ProtectedRoutes';
+import APICall from './APICall';
 function Hello() {
   return (
     <>
@@ -80,6 +82,8 @@ function App() {
       <UsersRedux />
       <Functional />
       <Class />
+      <ProtectedRoutes />
+      <APICall />
     </BrowserRouter>
   );
 }
